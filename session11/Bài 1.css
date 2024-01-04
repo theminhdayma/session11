@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.post-container {
+    width: 65%;
+    height: 40px;
+    background-color: rgb(231, 231, 235);
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-1 {
+   font-family: fantasy;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.item-2 {
+    margin-top: 5px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.item-3 {
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: center;
+}
+
+.id {
+    font-size: 10px;
+}

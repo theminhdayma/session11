@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 600px;
+    height: 400px;
+    background-color: rgb(236, 235, 235);
+    margin: auto;
+    margin-top: 20px;
+}
+
+.container {
+    position: relative;
+    top: 10px;
+    background-image: url(https://img.lovepik.com/photo/50093/5830.jpg_wh860.jpg);
+    width: 95%;
+    height: 300px;
+    background-size: cover;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.football {
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.content {
+    position: relative;
+    color: white;
+    top: 150px;
+    left: 30px;
+}
+
+.container-1{
+    margin-top: 25px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.item-1 {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(201, 200, 200);
+}
+
+.container-1 :hover{
+    background-color: rgb(37, 37, 37);
+}
+
+#arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(225, 223, 223);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(156, 155, 155);
+}
+
+.item-2 {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
+
+
+
+

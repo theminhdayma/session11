@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.post-container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 70%;
+    height: 500px;
+    background-color: rgb(239, 222, 143);
+    margin: auto;
+    margin-top: 50px;
+}
+
+.header {
+    width: 95%;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    align-items: center;
+}
+
+.item {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.item-1 {
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.button {
+    margin-left: 100px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
